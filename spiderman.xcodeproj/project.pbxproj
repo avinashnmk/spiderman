@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		83F626C227F3A47B00D25D9D /* spidermanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626C127F3A47B00D25D9D /* spidermanApp.swift */; };
-		83F626C427F3A47B00D25D9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626C327F3A47B00D25D9D /* ContentView.swift */; };
 		83F626C627F3A47D00D25D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F626C527F3A47D00D25D9D /* Assets.xcassets */; };
 		83F626C927F3A47D00D25D9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F626C827F3A47D00D25D9D /* Preview Assets.xcassets */; };
 		83F626CB27F3A47D00D25D9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626CA27F3A47D00D25D9D /* Persistence.swift */; };
@@ -16,6 +15,7 @@
 		83F626D827F3A47D00D25D9D /* spidermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626D727F3A47D00D25D9D /* spidermanTests.swift */; };
 		83F626E227F3A47D00D25D9D /* spidermanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626E127F3A47D00D25D9D /* spidermanUITests.swift */; };
 		83F626E427F3A47D00D25D9D /* spidermanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626E327F3A47D00D25D9D /* spidermanUITestsLaunchTests.swift */; };
+		83F626F127F3A58F00D25D9D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F626F027F3A58F00D25D9D /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		83F626BE27F3A47B00D25D9D /* spiderman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spiderman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F626C127F3A47B00D25D9D /* spidermanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spidermanApp.swift; sourceTree = "<group>"; };
-		83F626C327F3A47B00D25D9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83F626C527F3A47D00D25D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F626C827F3A47D00D25D9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83F626CA27F3A47D00D25D9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		83F626DD27F3A47D00D25D9D /* spidermanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spidermanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F626E127F3A47D00D25D9D /* spidermanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spidermanUITests.swift; sourceTree = "<group>"; };
 		83F626E327F3A47D00D25D9D /* spidermanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spidermanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83F626F027F3A58F00D25D9D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				83F626C127F3A47B00D25D9D /* spidermanApp.swift */,
-				83F626C327F3A47B00D25D9D /* ContentView.swift */,
+				83F626F027F3A58F00D25D9D /* LoginView.swift */,
 				83F626C527F3A47D00D25D9D /* Assets.xcassets */,
 				83F626CA27F3A47D00D25D9D /* Persistence.swift */,
 				83F626CC27F3A47D00D25D9D /* spiderman.xcdatamodeld */,
@@ -265,7 +265,7 @@
 			files = (
 				83F626CB27F3A47D00D25D9D /* Persistence.swift in Sources */,
 				83F626CE27F3A47D00D25D9D /* spiderman.xcdatamodeld in Sources */,
-				83F626C427F3A47B00D25D9D /* ContentView.swift in Sources */,
+				83F626F127F3A58F00D25D9D /* LoginView.swift in Sources */,
 				83F626C227F3A47B00D25D9D /* spidermanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
